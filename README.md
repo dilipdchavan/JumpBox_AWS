@@ -35,7 +35,7 @@ Once all the three instances are deployed
 1)	Copying key of private instance to your jump box using scp .
 2)	Connect the jumpbox using ssh
 3)	Connect the private instance using ssh
-## Put key on JumpBox instance.
+## Update a key on JumpBox instance.
 Let permissions : chmod 0600 FI_KeyPair.pem Connection to the private instance : ssh -i DC_KeyPair.pem ec2-user@"Final Instance's IP" and ping google.com (172.217.7.206).
 ![JumpBox-Google-Ping](JumpBox-Google-Ping.png)
 
